@@ -1,16 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 header{
     text-align: center;
-
-}
-div{
-    border:1px solid white;
-
-
 }
 
 main{
-    border:3px double white;
+    height: ;
+    border:3px double purple;
+    display:flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    
 }
+.box{
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+
+
 
 footer{
     text-align: center;
